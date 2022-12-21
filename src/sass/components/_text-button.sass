@@ -1,0 +1,19 @@
+// A text button component
+.btn-text
+    &:link, &:visited
+        font-size: $font-size-paragraph
+        letter-spacing: .2rem
+        font-weight: 700
+        color: $brown-light
+        text-decoration: none
+        padding: 1rem
+        border-bottom: 1px solid $brown-dark
+        display: inline-block
+        transition: .5s all    
+    &:hover
+        background-color: $brown-light
+        color: $white
+        box-shadow: $box-shadow
+        transform: translateY(-.3rem)
+    &:active
+        transform: translateY(0rem)

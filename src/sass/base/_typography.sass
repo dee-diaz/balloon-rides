@@ -1,7 +1,7 @@
 body
     font-family: 'Roboto', sans-serif
     font-weight: 400
-    font-size: 1.6rem
+    font-size: $font-size-paragraph
     color: #777777
     letter-spacing: .2rem
 
@@ -31,3 +31,34 @@ body
         animation-timing-function: ease
         backface-visibility: hidden
         margin-bottom: 6.5rem
+
+// TEXT GRADIENT
+.title-secondary
+    display: inline-block
+    text-align: center
+    font-size: $font-size-h2
+    letter-spacing: 1rem
+    text-transform: uppercase
+    font-weight: 800
+    background: linear-gradient(90.05deg, rgba($brown-light, 0.7) 0.03%, rgba($brown-dark, 0.7) 99.94%)
+    -webkit-background-clip: text
+    color: transparent
+    transition: all .4s
+    backface-visibility: hidden
+    // &:hover
+    //     transform: skewY(2deg) skewX(15deg)
+    //     text-shadow: $shadow-h2
+    &_white
+        color: $white
+
+.title-third
+    font-size: $font-size-h3
+    letter-spacing: .2rem
+    text-transform: uppercase
+    font-weight: 700
+
+.paragraph
+    font-size: $font-size-paragraph
+    letter-spacing: .2rem
+    line-height: 140%
+    font-weight: 400

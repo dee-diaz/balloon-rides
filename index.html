@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/icon-font.css">
     <link rel="stylesheet" href="src/css/styles.css">
     <title>Balloon Rides</title>
 </head>
 <body>
     <div class="container">
+        <div class="navigation">
+            <input type="checkbox" class="navigation__toggle" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon"></span>
+            </label>
+            <div class="navigation__background"></div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#!" class="navigation__link">About Us</a></li>
+                    <li class="navigation__item"><a href="#!" class="navigation__link">Discounts</a></li>
+                    <li class="navigation__item"><a href="#!" class="navigation__link">Best Tours</a></li>
+                    <li class="navigation__item"><a href="#!" class="navigation__link">Price Calculator</a></li>
+                    <li class="navigation__item"><a href="#!" class="navigation__link">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
         <header class="header">
             <img src="src/icons/Icon-logo.svg" alt="Logo balloon" class="header__logo">
             <div class="header__box">
@@ -19,6 +36,284 @@
                 <a href="#!" class="btn btn_animated">Our Catalog</a>
             </div>
         </header>
+        <main>
+            <section class="section-about">
+                <div class="text-align-center margin-bottom-80px">
+                    <h2 class="title-secondary">
+                        Unbelievable feeling of freedom
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="title-third margin-bottom-10px">LET YOURSELF HAVE AN ADVENTURE</h3>
+                        <p class="paragraph margin-bottom-30px">Lorem ipsum dolor sit amet consectetur adipiscing elit maecenas aliquam montes primis sapien purus sem, metus malesuada cum dis tempus viverra integer vehicula et quis augue id. Montes ridiculus augue neque proin placerat porta fermentum odio enim.</p>
+                        <h3 class="title-third margin-bottom-10px">UP TO 6,000 METERS ABOVE THE SEA LEVEL</h3>
+                        <p class="paragraph margin-bottom-30px">Lorem ipsum dolor sit amet consectetur adipiscing elit maecenas aliquam montes primis sapien purus sem, metus malesuada cum dis tempus viverra integer vehicula et quis augue id. Montes ridiculus augue neque proin placerat porta fermentum odio enim.</p>
+                        <a href="#!" class="btn-text">Learn more &rarr;</a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <img src="src/img/photo-balloons-1.png" alt="Photo of balloons 1" class="composition__photo composition__photo_n1">
+                            <img src="src/img/photo-balloons-2.png" alt="Photo of balloons 2" class="composition__photo composition__photo_n2">
+                            <img src="src/img/photo-balloons-3.png" alt="Photo of balloons 3" class="composition__photo composition__photo_n3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-adventure">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="adventure-card">
+                            <i class="adventure-card__icon icon-Vector-3 margin-bottom-30px"></i>
+                            <h3 class="title-third margin-bottom-10px">Adventure</h3>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="adventure-card">
+                            <i class="adventure-card__icon icon-Vector-2 margin-bottom-30px"></i>
+                            <h3 class="title-third margin-bottom-10px">Adventure</h3>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="adventure-card">
+                            <i class="adventure-card__icon icon-Vector margin-bottom-30px"></i>
+                            <h3 class="title-third margin-bottom-10px">Adventure</h3>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="adventure-card">
+                            <i class="adventure-card__icon icon-Vector-1 margin-bottom-30px"></i>
+                            <h3 class="title-third margin-bottom-10px">Adventure</h3>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-tour">
+                <div class="text-align-center margin-bottom-80px">
+                    <h2 class="title-secondary">MOST POPULAR TOURS</h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="card-tour">
+                            <div class="card-tour__side card-tour__side_front">
+                                <div class="card-tour__img card-tour__img_1 margin-bottom-50px"></div>
+                                <h4 class="card-tour__title"><span class="card-tour__span card-tour__span_1">SMALL GROUP</span> 
+                                    <br>
+                                    <span class="card-tour__span card-tour__span_2">TOURS</span>
+                                </h4>
+                                <div class="card-tour__description">
+                                    <ul>
+                                        <li>Groups of 6 people or more</li>
+                                        <li>Duration of 2 hours</li>
+                                        <li>1 guide per group</li>
+                                        <li>Flight range of 6km</li>
+                                        <li>Free souvenirs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-tour__side card-tour__side_back">
+                                <div class="card-tour__backside-box">
+                                    <p class="card-tour__text card-tour__text_1">Full price</p>
+                                    <p class="card-tour__text card-tour__text_2">$99</p>
+                                    <a href="#!" class="btn btn_animated">Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card-tour">
+                            <div class="card-tour__side card-tour__side_front">
+                                <div class="card-tour__img card-tour__img_2 margin-bottom-50px"></div>
+                                <h4 class="card-tour__title"><span class="card-tour__span card-tour__span_1">INDIVIDUAL</span> 
+                                    <br>
+                                    <span class="card-tour__span card-tour__span_2">TOURS</span>
+                                </h4>
+                                <div class="card-tour__description">
+                                    <ul>
+                                        <li>Groups of 6 people or more</li>
+                                        <li>Duration of 2 hours</li>
+                                        <li>1 guide per group</li>
+                                        <li>Flight range of 6km</li>
+                                        <li>Free souvenirs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-tour__side card-tour__side_back">
+                                <div class="card-tour__backside-box">
+                                    <p class="card-tour__text card-tour__text_1">Full price</p>
+                                    <p class="card-tour__text card-tour__text_2">$299</p>
+                                    <a href="#!" class="btn btn_animated">Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card-tour">
+                            <div class="card-tour__side card-tour__side_front">
+                                <div class="card-tour__img card-tour__img_3 margin-bottom-50px"></div>
+                                <h4 class="card-tour__title"><span class="card-tour__span card-tour__span_1">OBSERVATION</span> 
+                                    <br>
+                                    <span class="card-tour__span card-tour__span_2">DESKS</span>
+                                </h4>
+                                <div class="card-tour__description">
+                                    <ul>
+                                        <li>Groups of 6 people or more</li>
+                                        <li>Duration of 2 hours</li>
+                                        <li>1 guide per group</li>
+                                        <li>Flight range of 6km</li>
+                                        <li>Free souvenirs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-tour__side card-tour__side_back">
+                                <div class="card-tour__backside-box">
+                                    <p class="card-tour__text card-tour__text_1">Full price</p>
+                                    <p class="card-tour__text card-tour__text_2">$49</p>
+                                    <a href="#!" class="btn btn_animated">Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-align-center">
+                    <a href="#!" class="btn btn_animated">Book Now</a>
+                </div>
+            </section>
+            <section class="section-feedback">
+                <div class="bg-gradient"></div>
+                <video class="bg-video" autoplay muted loop>
+                    <source src="src/img/hot-air-balloons-1.mp4">
+                    <source src="src/img/hot-air-balloons-2.webm">
+                </video>
+                <div class="text-align-center margin-bottom-80px">
+                    <h2 class="title-secondary title-secondary_white">CUSTOMER TESTIMONIALS</h2>
+                </div>
+                <!-- The first customer's card -->
+                <div class="row">
+                    <div class="feedback-card">
+                        <figure class="feedback-card__img">
+                            <img src="src/img/customer-1.jpg" alt="Photo of a male customer">
+                            <figcaption class="feedback-card__name">TOM SAUNDERS</figcaption>
+                        </figure>
+                        <div class="feedback-card__box">
+                            <h3 class="title-third margin-bottom-10px">I WAS SO IMPRESSED!</h3>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- The second customer's card -->
+                <div class="row">
+                    <div class="feedback-card">
+                        <figure class="feedback-card__img">
+                            <img src="src/img/customer-2.jpg" alt="Photo of a female customer">
+                            <figcaption class="feedback-card__name">NICOLE BAILEY</figcaption>
+                        </figure>
+                        <div class="feedback-card__box">
+                            <h3 class="title-third margin-bottom-10px">IT WAS AN UNFORGETTABLE EXPERIENCE!</h3>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-align-center">
+                    <a href="#!" class="btn btn_animated">Book Now</a>
+                </div>
+            </section>
+            <section class="section-booking">
+                <div class="row">
+                    <div class="booking">
+                        <div class="booking__form">
+                            <form action="#" class="form">
+                                <div class="text-align-center margin-bottom-30px">
+                                    <h2 class="title-secondary">
+                                        Book a tour
+                                    </h2>
+                                </div>
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                                    <label for="name" class="form__label">Enter your full name</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Your Email" id="email" required>
+                                    <label for="email" class="form__label">Enter your email</label>
+                                </div>
+                                <!-- Radio buttons -->
+                                <div class="form__group">
+                                    <div class="form__group-radio">
+                                        <input type="radio" class="form__input-radio" id="tour-1" name="checked">
+                                        <label for="tour-1" class="form__label-radio"><span class="form__button-radio"></span>
+                                            Small group tour</label>
+                                    </div>
+                                    <div class="form__group-radio">
+                                        <input type="radio" class="form__input-radio" id="tour-2" name="checked">
+                                        <label for="tour-2" class="form__label-radio"><span class="form__button-radio"></span>
+                                            Individual tour</label>
+                                    </div>
+                                </div>
+                                <!-- Form Button -->
+                                <div class="form__group">
+                                    <button class="btn btn_brown">Book Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="row text-align-center">
+                <a href="#!">
+                    <img src="src/icons/Icon-logo.svg" alt="logo" class="footer__logo">
+                </a>
+            </div>
+            <div class="row">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#!" class="footer__link">About Us</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Discounts</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Best Tours</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Price Calculator</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
+    <!-- <section class="grid-test">
+        <div class="row">
+            <div class="col-1-of-2">col-1-of-2</div>
+            <div class="col-1-of-2">col-1-of-2</div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-1-of-3">col-1-of-3</div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-2-of-3">col-2-of-3</div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-2-of-4">col-2-of-4</div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-3-of-4">col-3-of-4</div>
+        </div>
+    </section> -->
 </body>
 </html>
