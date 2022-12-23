@@ -470,14 +470,42 @@ html {
   font-size: 62.5%;
 }
 
-/* line 9, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/base/_base.sass */
+@media (max-width: 1240px) {
+  /* line 6, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/base/_base.sass */
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 900px) {
+  /* line 6, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/base/_base.sass */
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 6, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/base/_base.sass */
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 6, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/base/_base.sass */
+  html {
+    font-size: 75%;
+  }
+}
+
+/* line 17, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/base/_base.sass */
 body {
   padding: 5rem;
   background-color: white;
   scroll-behavior: smooth;
 }
 
-/* line 14, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/base/_base.sass */
+/* line 22, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/base/_base.sass */
 .container {
   background-color: #F7F7F7;
   position: relative;
@@ -1329,13 +1357,13 @@ body {
 /* line 71, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/layout/_navigation.sass */
 .navigation__icon {
   position: relative;
-  margin-top: 35px;
+  margin-top: 3.7rem;
 }
 
 /* line 74, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/layout/_navigation.sass */
 .navigation__icon, .navigation__icon::before, .navigation__icon::after {
-  width: 30px;
-  height: 2px;
+  width: 3rem;
+  height: .2rem;
   background: #000000;
   display: inline-block;
 }
@@ -1350,22 +1378,22 @@ body {
 
 /* line 87, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/layout/_navigation.sass */
 .navigation__icon::before {
-  top: -8px;
+  top: -0.8rem;
 }
 
 /* line 89, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/layout/_navigation.sass */
 .navigation__icon::after {
-  top: 8px;
+  top: .8rem;
 }
 
 /* line 92, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/layout/_navigation.sass */
 .navigation__button:hover .navigation__icon::before {
-  top: -10px;
+  top: -1rem;
 }
 
 /* line 94, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/layout/_navigation.sass */
 .navigation__button:hover .navigation__icon::after {
-  top: 10px;
+  top: 1rem;
 }
 
 /* line 97, ../../../../../Users/dianadiaz/repos/balloon-rides/src/sass/layout/_navigation.sass */
