@@ -21,6 +21,11 @@ body
         backface-visibility: hidden
         @include respond(tab-land)
             font-size: 4rem
+        @include respond(tab-port)
+            font-size: 3.8rem
+            letter-spacing: .5rem
+            margin-bottom: 0
+            
     &__secondary
         display: block
         font-weight: 100
@@ -36,6 +41,9 @@ body
         @include respond(tab-land)
             font-size: 3rem
             margin-bottom: 3.5rem
+        @include respond(tab-port)
+            font-size: 2.7rem
+            letter-spacing: .2rem
 
 // TEXT GRADIENT
 .title-secondary
@@ -52,6 +60,8 @@ body
     backface-visibility: hidden
     @include respond(tab-land)
         font-size: 3rem
+    @include respond(tab-port)
+        letter-spacing: .6rem
     // &:hover
     //     transform: skewY(2deg) skewX(15deg)
     //     text-shadow: $shadow-h2
